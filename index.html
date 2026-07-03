@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Regras compartilhadas por ambos os blocos */
+        header, main {
+            max-width: 880px; /* Mesma largura para alinhar perfeitamente */
+            margin: 0 auto;   /* Centraliza horizontalmente sem zerar o padding lateral */
+            padding: 16px;    /* Espaçamento interno padrão */
+            box-sizing: border-box; /* Garante que o padding não aumente a largura total */
+        }
 
+        header {
+            background-color: aqua;
+            color: black;
+            text-align: center;
+        }
+
+        main {
+            background-color: cadetblue;
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>título principal</h1>
+        <p>explicação breve sobre o blog</p>
+    </header>
+    <main>
+        <h2>subtítulo</h2>
+        <p>escrever detalhadamente sobre o assunto</p>
+    </main>
+</body>
+</html>
